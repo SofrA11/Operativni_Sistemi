@@ -1,0 +1,14 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+
+	int br=0;
+	printf("Unesite N");
+	scanf("%d",&br);
+	char komanda[50];
+	sprintf(komanda,"./zadatak2 %d",br);
+	system(komanda);
+	return 0;
+
+}
